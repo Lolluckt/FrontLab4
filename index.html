@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Друга лабораторна робота">
+    <meta name="keywords" content="HTML, Друга лабораторна робота">
+    <title>Блінов Є.М. ІК-24</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Блінов Єгор Миколайович</h2>
+    <p><strong>Місце та дата народження:</strong> 9 грудня, 2004 року, м. Чернігів</p>
+    <p><strong>Освіта:</strong></p>
+    <ul>
+        <li>ЗСШФМП №12, м. Чернігів</li>
+        <li>НТУУ "КПІ", м. Київ</li>
+    </ul>
+
+    <p><strong>Хобі:</strong></p>
+    <ul>
+        <li>Комп'ютерні ігри</li>
+        <li>Теніс</li>
+        <li>Футбол</li>
+        <li>Колекціонування мініатюр</li>
+    </ul>
+
+    <p><strong>Улюблені фільми:</strong></p>
+    <ol>
+        <li>"Матриця", 1999</li>
+        <li>"Темний лицар", 2008</li>
+        <li>"Хороший, поганий, злий", 1966</li>
+        <li>"Сталкер", 1979</li>
+        <li>"Уцілілий", 2015</li>
+    </ol>
+
+    <p>Чернігів — одне з найстаріших міст України, розташоване на півночі країни на річці Десна. Воно має багатовікову історію і славиться своєю архітектурною та культурною спадщиною.</p>
+
+    <p id="target-element">Місто відоме своїми старовинними церквами та соборами, серед яких:</p>
+    <ul>
+        <li>Спасо-Преображенський собор — один із найстаріших православних храмів Східної Європи, заснований у 11 столітті.</li>
+        <li>Борисоглібський собор — пам'ятка давньоруської архітектури, побудована в 12 столітті.</li>
+        <li>Троїцький монастир — один із найвизначніших монастирських комплексів України, заснований у 17 столітті.</li>
+    </ul>
+
+    <p>Чернігів також відомий своїми неймовірними парками та скверами, особливо Дитинець, історичний центр міста, де зосереджено багато археологічних та архітектурних пам'яток.</p>
+    
+    <div class="image-container">
+        <a href="https://chernigiv-rada.gov.ua/" target="_blank">
+            <img id="chernihiv-image" src="images/Chernihiv.jpg" alt="Чернігів" width="600">
+        </a>
+        <div class="image-controls">
+            <button onclick="addImage()">Додати зображення</button>
+            <button onclick="resizeImage(true)">Збільшити зображення</button>
+            <button onclick="resizeImage(false)">Зменшити зображення</button>
+            <button onclick="removeImage()">Видалити зображення</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
